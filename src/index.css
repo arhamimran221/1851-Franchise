@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Oswald&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: AktivGroteskBold;
+   src: url(./assets/font/AktivGrotesk-Bold.otf);
+   font-weight: 700;
+  }
+  @font-face {
+    font-family: AktivGroteskMedium;
+   src: url(./assets/font/AktivGrotesk-Medium.otf);
+   font-weight: 500;
+  }
+  @font-face {
+    font-family: AktivGroteskRegular;
+   src: url(./assets/font/AktivGrotesk-Regular.otf);
+   font-weight:400;
+  }
+  @font-face {
+    font-family: AktivGroteskLight;
+   src: url(./assets/font/AktivGrotesk-Light.otf);
+   font-weight: 300;
+  }
+  
+  input[type="search"]::-webkit-search-cancel-button {
+    display: none;
+  }
+  
+  
+  
+.containterFranchies{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0px auto;
+    overflow-x: hidden;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:580px) {
+  .responsive{
+    margin-top: 2%;
+    flex-direction: column;
+padding: 2% 4%;
+  }
+  .NavResponsive{
+    flex-direction: column;
+  }
+  .mainsocialCardleft{
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .mainsocialCardright{
+    margin-top: 8%;
+    justify-content: center;
+    padding-bottom: 2%;
+  }
+  .topBar{
+    flex-direction: column;
+    padding: 0px;
+  }
+  .navMenu{
+    width: 100%;
+    gap: 8px;
+    padding: 0px 6px;
+  }
+  .navMenu h6{
+    font-size: 10px;
+  }
+  .dviderres{
+    display: none;
+  }
+  .subscribeBtn{
+    width: 100%;
+    margin-top: 24px;
+  }
+  .logodisplynone{
+    display: none;
+  }
+  .MobileRes{
+    padding: 2% 3%;
+    background-color: #18416A;
+    display: flex;
+    justify-content: space-between;
+  }
+  .mobileView{
+    display: block;
+    background-color: #18416A;
+  }
+  .serachRes{
+    display: none;
+  }
+  .menubtnCard{
+    display: none;
+  }
+  .subscribeBtn{
+    justify-content: center;
+  }
+  .mobile-IconCross{
+color: #fff;
+font-size: 36px;
+margin-top: 12px;
+margin-right: 9px;
+  }
+  .destopview{
+    display: none;
+  }
+  .mobile-view{
+    transition: all 0.5s ease-in;
+  }
+  .MobileRes{
+    display: flex;
+  }
+  .mainHeroCard{
+    margin-top: 6%;
+  }
+  .responseLeft{
+    width: 100%;
+   
+    text-align: center;
+}
+.responseLeft h2{
+  padding-left: 2%;
+  font-size: 26px;
+}
+.responseLeft h4{
+  padding-left: 2%;
+}
+.browseres{
+  margin-left: 0px;
+}
+.findsupplier{
+  margin:  4% 2%;
+  padding-bottom: 4%;
+}
+.res-flex{
+  flex-direction: column;
+  padding: 3% 0%;
+}
+.ser-res{
+  width: 100%;
+}
+.serline-res{
+  display: none;
+}
+.input-res{
+  width: 100%;
+}
+.res-lable{
+  width: 100%;
+  margin-top: 2%;
+}
+.maincard-input{
+  flex-direction: column;
+}
+.res-line-input{
+  display: none;
+}
+
+.res-submit-btn {
+  width: 35%;
+  margin-top: 3%;
+  padding: 2%;
+  border-radius: 8px;
+}
+}

@@ -1,0 +1,107 @@
+.topBar{
+    background: linear-gradient(97.18deg,#18416A, #092138);
+border-radius: 0px 0px 30px 30px;
+width: 100%;
+padding: 0px 0px 0px 22px;
+display: flex;
+/* justify-content: space-between; */
+align-items: center;
+position: relative;
+    z-index: 1;
+}
+.logoCard{
+    width: 20%;
+}
+.navMenu{
+    width: 45%;
+}
+.subscribeBtn{
+    width: 35%;
+}
+.searchBar{
+    padding-left: 25%;
+    cursor: pointer;
+    border-radius: 16px;
+    width: 160px;
+    outline-style: none;
+}
+.subscribeBtn button{
+    background-color: #C00035;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-family: 'AktivGroteskLight';
+
+}
+.subscribeBtn button:hover{
+    background-color: #fff;
+    color: #C00035;
+    transition: all 0.2s ease-in-out;
+}
+.menubtnCard{
+    background: linear-gradient(97.18deg,#AC0432, #EB0444);
+border-radius: 0px 0px 30px 0px;
+padding: 16px 22px 22px 16px;
+}
+
+.mainTrendinCard{
+    width: 100%;
+    background: linear-gradient(97.18deg, #AC0432, #EB0444);
+    overflow-x:hidden ;
+}
+.texttrans{
+    font-family: AktivGroteskRegular;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+}
+.mainSocialCard{
+    background: #0A2139;
+}
+.mobileView{
+    display: none;
+}
+.mainsocialCardright{
+    width: 30%;
+}
+.mainsocialCardleft{
+    width: 70%;
+
+}
+.franchbg{
+    background-color: #18416A;
+    width: 136px;
+    padding: 6px 8px;
+    margin-top: 6px;
+}
+.mainsocialCardleft h6{
+    font-size: 12px;
+    font-family: AktivGroteskLight;
+    font-weight: 400;
+}
+.mainHeroCard{
+    width: 100%;
+    background: rgb(217,217,217);
+    background: radial-gradient(circle, rgba(217,217,217,0.7049413515406162) 0%, rgba(130,130,130,1) 100%);    margin-top: -6.575317%;
+}
+.bg-animal{
+    margin-top: 12%;
+    background-image: url(../../assets/svg/animalIcon.svg);
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10% 30% 20% 0%;
+}
+.supplierbg{
+    background: linear-gradient(97.18deg,#AC0432, #EB0444);
+    font-family: AktivGroteskLight;
+
+}
+.MobileRes{
+    display: none;
+}

@@ -1,0 +1,107 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500;6..12,600&family=Oswald:wght@500&display=swap');
+.res-filter-btn{
+    background: linear-gradient(275.45deg, #18416A -0.1%, #092138 86.46%);
+}
+.dropdown {
+    width: 300px;
+    border-radius: 10px;
+    background-color: #f1f3f3;
+  }
+  
+  .dropdown-header {
+    padding: 15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Oswald';
+  }
+  
+  .dropdown-body {
+    padding: 5px;
+    border-top: 1px solid #E5E8EC;
+    display: none;
+  }
+  
+  .dropdown-body.open {
+    display: block;
+  }
+  
+  .dropdown-item {
+    padding: 10px;
+  }
+  
+  .dropdown-item:hover {
+    cursor: pointer;
+  }
+  
+  .dropdown-item-dot {
+    opacity: 0;
+    color: #d2043d;
+    transition: all .2s ease-in-out;
+  }
+  
+  .dropdown-item-dot.selected {
+    opacity: 1;
+  }
+  
+  .icon {
+    font-size: #d2043d;
+    color: #91A5BE;
+    transform: rotate(0deg);
+    transition: all .2s ease-in-out;
+  }
+  
+  .icon.open {
+    transform: rotate(180deg);
+  }
+  .icon {
+    color:  #d2043d;
+    transform: rotate(0deg);
+    transition: all .2s ease-in-out;
+}
+.bg-\[\#f1f3f3\] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(241 243 243 / var(--tw-bg-opacity));
+    border-radius: 8px;
+}
+.supply-heading{
+    font-family:'Caveat' ;
+}
+.brand-page{
+    background: linear-gradient(275.45deg, #18416A -0.1%, #092138 86.46%);
+    color: #f1f3f3;
+    border-bottom-left-radius: 8px;
+}
+.supply-btn{
+    background: linear-gradient(97.18deg, #AC0432, #EB0444);
+    color: #f1f3f3;
+    border-bottom-right-radius: 8px;
+
+}
+.ribbon{
+    margin-top: -20px;
+    background: url("../../assets/images/Ribbon.jpeg");
+    height: 130px ;
+    width: 110px;
+    color: #f1f3f3;
+text-align: center;
+font-family: 'Nunito';
+}
+@media screen and (max-width:580px){
+  .card-item{
+   margin-bottom: 30px;
+  }
+  .card-dropdown{
+    flex-direction: column;
+    margin-bottom: 50%;
+  }
+  .filter-button{
+    margin-top: 10%;
+    width: 100px;
+    border-radius:7px;
+    padding: 10px;
+    margin-bottom: 50px !important;
+  }
+}

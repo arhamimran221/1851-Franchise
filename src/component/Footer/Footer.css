@@ -1,0 +1,41 @@
+.footer-main{
+    background: linear-gradient(343.39deg, #18416A 8.13%, #092138 80.35%);
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500;6..12,600&family=Oswald:wght@500&display=swap');
+.footer-links {
+    font-family: 'Nunito';
+}
+.footer-content{
+    font-family: 'Nunito';
+
+
+}
+.email-heading{
+    font-family: 'Oswald';
+    color: #ffff;
+    margin-bottom: 5px;
+}
+.submit-button{
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    cursor: pointer;
+    font-family: 'Oswald';
+}
+@media screen and (max-width:580px) {
+    .footer-links{
+        margin: 0px auto;
+        text-align: center;
+        margin-bottom: 10px;
+
+    }
+    .footer-content{
+        margin: 5% 10%;
+       
+    }
+    .footer-content p{
+        line-height: 17px;
+    }
+}

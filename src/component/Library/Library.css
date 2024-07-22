@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap');
+
+.player-main{
+width: 100%;
+background: linear-gradient(97.18deg, #AC0432, #EB0444);
+border-radius: 20px ;
+margin: 0px auto;
+font-family: 'Oswald';
+}
+.player-theme{
+    background: linear-gradient(97.18deg,#EB0444, #AC0432);
+    border-radius: 20px ;
+    font-family:  'Oswald';
+}
+.player-desc{
+    color: rgba(255, 255, 255, 1);
+    font-family:  'Oswald';
+}
+.player-time{
+    color: rgba(5, 14, 60, 1);
+}
+@media screen and (max-width:580px) {
+    .player-main{
+        flex-direction: column;
+    }
+    .left-player{
+        width: 100% !important;
+    }
+    .right-player{
+        width: 100% !important;
+    }
+    .thumbnail{
+    flex-direction: column;
+    }
+    .watch-thumbnail{
+        font-size: 10px !important;
+    }
+    .watch-thumbnail-heading{
+        font-size: 12px !important;
+
+    }
+}
